@@ -1,0 +1,101 @@
+.background {
+    background-image: url(weather.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 100vh !important;
+    background-size: cover;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.heading {
+    font-weight: 1000;
+    font-size: 30px;
+    color: red;
+    margin-top: 20px;
+}
+
+.container {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: rgb(52, 8, 199);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 500px 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type="text"] {
+    margin-top: 8px;
+    height: 3rem;
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid beige;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input:focus {
+    background-color: #fff;
+    color: darkslategrey;
+    border-color: blue;
+    outline: 0;
+}
+
+input[type="button"] {
+    background-color: blue;
+    height: 2.5rem;
+    width: 120px;
+    color: aliceblue;
+    outline: 0;
+    border-radius: 8px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.result {
+    color: white;
+    font-size: 20px;
+}
+
+.min-temp {
+    margin-bottom: 20px;
+}
+
+.max-temp {
+    margin-bottom: 20px;
+}
+
+.temp {
+    margin-bottom: 20px;
+}
+
+#city-name {
+    margin-bottom: 10px;
+    color: yellow;
+}
+
+#weather-type {
+    margin-bottom: 10px;
+    color: orangered;
+    font-size: 30px;
+}

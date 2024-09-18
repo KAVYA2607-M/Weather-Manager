@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="stylewea.css">
+</head>
+
+<body>
+    
+        <div class="container background">
+            <div>
+                <h1 class="heading">Weather Manager</h1>
+                <br />
+                <input type="text" name="" id="city-input" placeholder="search city">
+                <br />
+                <input type="button" value="search" onclick="searchCity()">
+
+            </div>
+            <div class="result">
+                <h2 id="city-name"></h2>
+                <div>
+                    <h1 id="weather-type"></h1>
+                    <div>
+                        <h3 class="temp">Temp: <span id="temp"></span>°C</h3>
+                        <h3 class="min-temp">Min Temp: <span id="min-temp"></span>°F</h3>
+                        <h3 class="max-temp">Max Temp: <span id="max-temp"></span>°F</h3>
+                        <h3>Wind Speed: <span id="Wind-speed" class="wind">                                     </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="stylewea.js"></script>
+</body>
+
+</html>
